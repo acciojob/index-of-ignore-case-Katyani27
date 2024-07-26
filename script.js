@@ -1,12 +1,7 @@
-function indexOfIgnoreCase(s1, s2) {
- const lowers1 = s1.tolowerCase();
-	const lowers2 = s2.tolowerCase();
-	
-	
-	
-	
-
-return lowers1.indexOf(lowers2);
+function indexOfIgnoreCase(str, subStr) {
+    const lowerStr = str.toLowerCase();
+    const lowerSubStr = subStr.toLowerCase();
+    return lowerStr.indexOf(lowerSubStr);
 }
 
 // Please do not change the code below
